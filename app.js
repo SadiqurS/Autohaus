@@ -96,10 +96,3 @@ document.addEventListener("DOMContentLoaded", function () {
     }, 3000);
   });
 });
-
-// inputs.forEach((input) => {
-    //   input.value = "";
-    // });
-    // textarea.forEach((input) => {
-    //   input.value = "";
-    // });

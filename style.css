@@ -1013,9 +1013,13 @@ form .form-row .textarea {
 
 @media only screen and (max-width: 420px) {
   .h-btn{
-    padding: 6px 10px;
-    font-size: 10px;
+    display: none;
   }
+  .container .card .content p {
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+
 }
 @Media only screen and (max-width: 365px) {
   .h-btn{
