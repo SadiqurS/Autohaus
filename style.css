@@ -1015,6 +1015,9 @@ form .form-row .textarea {
   .h-btn{
     display: none;
   }
+  *{
+    overflow-x: hidden;
+  }
   .container .card .content p {
     font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
