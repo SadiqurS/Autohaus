@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Website for selling luxury automobiles" />
+    <title>AutoHaus</title>
+    <link type="text/css" rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/x-icon" href="/assets/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+    />
+
+    <!-- Box Icons -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <!-- Google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=MuseoModerno:wght@200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo"
+        ><img
+          src="assets/favicon.png"
+          alt="png"
+          width="30"
+          height="25"
+          style="padding-right: 0.25em"
+        />
+        AutoHaus</a
+      >
+      <ul class="navlist">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#inventory">Inventory</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Contact us</a></li>
+      </ul>
+
+      <div class="h-main">
+        <a href="#" class="h-btn">Buy Now</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        <div class="bx bx-moon" id="darkmode"></div>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <section class="hero" id="home">
+      <div class="hero-text">
+        <h1>AutoHaus</h1>
+        <h4>Latest Release</h4>
+        <p>
+          As an all-electric supercar, Roadster maximizes the potential of
+          aerodynamic engineering—with record-setting performance and
+          efficiency.
+        </p>
+        <div class="hero-in">
+          <div class="box">
+            <h3>Amg</h3>
+            <h5>Series</h5>
+            <img src="assets/mercedes.png" alt="main image" />
+          </div>
+
+          <div class="box">
+            <h3>M</h3>
+            <h5>Series</h5>
+            <img src="assets/bmw.png" alt="main image" />
+          </div>
+
+          <div class="box">
+            <h3>S</h3>
+            <h5>Series</h5>
+            <img src="assets/audi1.png" alt="main image" />
+          </div>
+        </div>
+      </div>
+      <div class="hero-img">
+        <img
+          src="assets/tesla.png"
+          alt="hero image"
+          style="padding-left: 3em"
+        />
+      </div>
+    </section>
+
+    <div class="down-arrow">
+      <a href="#about"><i class="bx bx-down-arrow-alt"></i></a>
+    </div>
+
+    <!-- About us section -->
+    <div class="about-title" id="about">
+      <h2>About Us</h2>
+    </div>
+    <section class="container">
+      <div class="card" style="--clr: #009688" id="aboutBx">
+        <div class="imgBx" id="AboutBx1">
+          <img src="assets/About-img1.avif" alt="Audi r8" />
+        </div>
+        <div class="content">
+          <h2>Luxury Vehicles</h2>
+          <p>
+            Indulge in automotive excellence. Discover opulence on wheels at our
+            luxury vehicle section. Impeccable craftsmanship, cutting-edge
+            technology, and unrivaled performance await. Your dreams, realized.
+            From sleek and powerful sports cars that exude raw adrenaline, to
+            sophisticated sedans that embody refined luxury, of automotive
+            craftsmanship.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="card" style="--clr: #ff3e7f" id="aboutBx">
+        <div class="imgBx">
+          <img src="assets/about-img2.avif" alt="Mclaren 720s" />
+        </div>
+        <div class="content">
+          <h2>Best Prices</h2>
+          <p>
+            Discover unbeatable prices at our dealership. We take pride in
+            offering the best deals, ensuring you get the most value for your
+            money. With competitive pricing and exceptional discounts, we make
+            owning your dream car affordable and accessible. Experience quality,
+            affordability, and satisfaction guaranteed at our dealership.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+
+      <div class="card" style="--clr: #03a9f4" id="aboutBx">
+        <div class="imgBx">
+          <img src="assets/about-img3.avif" alt="Delorean image" />
+        </div>
+        <div class="content">
+          <h2>family Established</h2>
+          <p>
+            As a family-established dealership, our bond with the community runs
+            deep. For years, we've been treating customers like family, offering
+            personalized service and a warm atmosphere. Trust, integrity, and a
+            commitment to excellence are the pillars of our legacy. Join our
+            automotive family and experience the difference firsthand.
+          </p>
+          <a href="#">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Inventory Section -->
+    <div class="about-title" id="inventory">
+      <h2>View Inventory</h2>
+    </div>
+    <section class="product-slider">
+      <div class="product-card">
+        <div class="card-content">
+          <img
+            src="assets/lamboAvProduct.png"
+            class="card-img"
+            alt="product 1"
+          />
+          <h2 class="card-title">2023 Lamborghini Aventador</h2>
+          <div class="card-body">
+            <p class="card-price">$825,914</p>
+          </div>
+          <div class="card-footer">
+            <button class="card-btn btn-success">Buy Now</button>
+            <button class="card-btn btn-border">View Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="card-content">
+          <img
+            src="assets/mclaren675LTProduct.png"
+            class="card-img"
+            alt="product 1"
+          />
+          <h2 class="card-title">2023 Mclaren 675LT</h2>
+          <div class="card-body">
+            <p class="card-price">$372,600</p>
+          </div>
+          <div class="card-footer">
+            <button class="card-btn btn-success">Buy Now</button>
+            <button class="card-btn btn-border">View Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="card-content">
+          <img
+            src="assets/Ferrari458Product.png"
+            class="card-img"
+            alt="product 1"
+          />
+          <h2 class="card-title">2023 Ferrari 458 Italia</h2>
+          <div class="card-body">
+            <p class="card-price">$525,000</p>
+          </div>
+          <div class="card-footer">
+            <button class="card-btn btn-success">Buy Now</button>
+            <button class="card-btn btn-border">View Details</button>
+          </div>
+        </div>
+      </div>
+      <div class="product-card">
+        <div class="card-content">
+          <img
+            src="assets/AudiR8Product.png"
+            class="card-img"
+            alt="product 1"
+          />
+          <h2 class="card-title">2023 Audi R8</h2>
+          <div class="card-body">
+            <p class="card-price">$158,600</p>
+          </div>
+          <div class="card-footer">
+            <button class="card-btn btn-success">Buy Now</button>
+            <button class="card-btn btn-border">View Details</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <div class="about-title" id="gallery">
+      <h2>Gallery</h2>
+    </div>
+
+    <div class="check-container">
+      <h4>Toggle View</h4>
+      <label class="switch">
+        <input type="checkbox" class="check-input" aria-label="toggle view" />
+        <span class="slider round"></span>
+      </label>
+    </div>
+
+    <section id="detailedGalleryView" class="gallery-section">
+      <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="assets/bentley.avif" alt="Bentley" />
+            <div class="swiper-content">
+              <h3>Bentley</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/lamboAvnt.avif" alt="Lamborghini Aventador" />
+            <div class="swiper-content">
+              <h3>Lamborghini Aventador</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/koenigsegg-gemera.webp" alt="koenigsegg Gemera" />
+            <div class="swiper-content">
+              <h3>koenigsegg Gemera</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/mclaren1.avif" alt="Mclaren 670S" />
+            <div class="swiper-content">
+              <h3>Mclaren 670S</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/ferrari1.avif" alt="Ferrari 488" />
+            <div class="swiper-content">
+              <h3>Ferrari 488</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/bugatti.avif" alt="Bugatti Veyron" />
+            <div class="swiper-content">
+              <h3>Bugatti Veyron</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/porche911.avif" alt="Porsche 911" />
+            <div class="swiper-content">
+              <h3>Porsche 911</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/bmwi8.avif" alt="BMW I8" />
+            <div class="swiper-content">
+              <h3>BMW I8</h3>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="assets/audi_r8.avif" alt="Audi R8" />
+            <div class="swiper-content">
+              <h3>Audi R8</h3>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </section>
+    <section class="nv-container">
+      <div id="normalView" class="normalViewGalley">
+        <div class="nv-slider">
+          <span style="--i: 1">
+            <img src="assets/bentley.avif" alt="Bentley" />
+          </span>
+          <span style="--i: 2">
+            <img src="assets/lamboAvnt.avif" alt="Lamborghini Aventador" />
+          </span>
+          <span style="--i: 3">
+            <img src="assets/koenigsegg-gemera.webp" alt="koenigsegg Gemera" />
+          </span>
+          <span style="--i: 4">
+            <img src="assets/mclaren1.avif" alt="Mclaren 670S" />
+          </span>
+          <span style="--i: 5">
+            <img src="assets/ferrari1.avif" alt="Ferrari 488" />
+          </span>
+          <span style="--i: 6">
+            <img src="assets/bugatti.avif" alt="Bugatti Veyron" />
+          </span>
+          <span style="--i: 7">
+            <img src="assets/porche911.avif" alt="Porsche 911" />
+          </span>
+          <span style="--i: 8">
+            <img src="assets/bmwi8.avif" alt="BMW I8" />
+          </span>
+          <span style="--i: 9">
+            <img src="assets/audi_r8.avif" alt="Audi R8" />
+          </span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Us Section -->
+    <div class="about-title" id="contact">
+      <h2>Contact Us</h2>
+    </div>
+
+    <section class="form-section">
+      <div class="form-container">
+        <div class="form-header">Get in Touch</div>
+        <form id="my-form" action="#">
+          <div class="form-row">
+            <div class="input-data">
+              <input type="text" id="output" required aria-label="something" />
+              <div class="underline"></div>
+              <label>First Name:</label>
+            </div>
+            <div class="input-data">
+              <input type="text" id="output" required aria-label="something" />
+              <div class="underline"></div>
+              <label>Last Name:</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-data">
+              <input type="text" id="output" required aria-label="something" />
+              <div class="underline"></div>
+              <label>Email Address:</label>
+            </div>
+            <div class="input-data">
+              <input type="tel" id="output" required aria-label="something" />
+              <div class="underline"></div>
+              <label for="telNo">Phone Number:</label>
+            </div>
+          </div>
+          <div class="form-row">
+            <div class="input-data textarea">
+              <textarea
+                cols="30"
+                rows="10"
+                required
+                aria-label="something"
+                id="output"
+              ></textarea>
+              <div class="underline"></div>
+              <label>Write your message:</label>
+            </div>
+          </div>
+          <div class="form-row submit-btn">
+            <div class="input-data">
+              <div class="inner"></div>
+              <input type="submit" value="Submit" />
+            </div>
+            <div id="success-msg" class="hidden">
+              Thank you for your message!
+            </div>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="social">
+        <a href="https://github.com/SadiqurS" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/sadiqur-sakib-550106209/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="http://sadiqur.netlify.app/" target="_blank"
+          ><i class="fa-solid fa-globe"></i
+        ></a>
+      </div>
+      <div class="social-links">
+        <a href="https://github.com/SadiqurS" target="_blank"
+          ><i class="fa-brands fa-github"></i
+        ></a>
+        <a
+          href="https://www.linkedin.com/in/sadiqur-sakib-550106209/"
+          target="_blank"
+          ><i class="fa-brands fa-linkedin"></i
+        ></a>
+        <a href="#" target="_blank"><i class="fab fa-twitter"></i></a>
+        <a href="#" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="http://sadiqur.netlify.app/" target="_blank"
+          ><i class="fa-solid fa-globe"></i
+        ></a>
+      </div>
+      <ul class="list">
+        <li>
+          <a href="#home">Home</a>
+        </li>
+        <li>
+          <a href="#about">About</a>
+        </li>
+        <li>
+          <a href="#inventory">Inventory</a>
+        </li>
+        <li>
+          <a href="#gallery">Galley</a>
+        </li>
+        <li>
+          <a href="#contact">Contact Us</a>
+        </li>
+      </ul>
+      <p class="copyright">Sadiqur Sakib &copy; 2023. All rights reserved.</p>
+    </footer>
+
+    <!-- js files -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
